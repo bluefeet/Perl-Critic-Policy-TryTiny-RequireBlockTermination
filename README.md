@@ -1,15 +1,13 @@
-=pod
-
-=head1 NAME
+# NAME
 
 Perl::Critic::Policy::TryTiny::RequireBlockTermination - Requires that
 try/catch/finally blocks are properly terminated.
 
-=head1 DESCRIPTION
+# DESCRIPTION
 
-A common problem with L<Try::Tiny> is forgetting to put a semicolon after the
+A common problem with [Try::Tiny](https://metacpan.org/pod/Try::Tiny) is forgetting to put a semicolon after the
 try/catch/finally block which can lead to difficul to debug issues.  While
-L<Try::Tiny> does do its best to detect this issue it cannot if the code after
+[Try::Tiny](https://metacpan.org/pod/Try::Tiny) does do its best to detect this issue it cannot if the code after
 the block returns an empty list.
 
 For example, this will fail:
@@ -17,7 +15,7 @@ For example, this will fail:
     try { } catch { }
     my $foo = 2;
 
-Since the C<my $foo=2> returns C<2> and C<try> throws an exception that an
+Since the `my $foo=2` returns `2` and `try` throws an exception that an
 unexpected argument was passed.
 
 But this will not fail:
@@ -49,22 +47,20 @@ working this module fails on it.  If this is something that you think is importa
 to support the author is happy to accept requests and patches.
 
 Note that this policy should be just as useful with other similar modules such as
-L<Try::Catch> and L<TryCatch>.
+[Try::Catch](https://metacpan.org/pod/Try::Catch) and [TryCatch](https://metacpan.org/pod/TryCatch).
 
-=head1 AUTHOR
+# AUTHOR
 
-Aran Clary Deltac <bluefeetE<64>gmail.com>
+Aran Clary Deltac <bluefeet@gmail.com>
 
-=head1 ACKNOWLEDGEMENTS
+# ACKNOWLEDGEMENTS
 
-Thanks to L<ZipRecruiter|https://www.ziprecruiter.com/>
+Thanks to [ZipRecruiter](https://www.ziprecruiter.com/)
 for encouraging their employees to contribute back to the open
 source ecosystem.  Without their dedication to quality software
 development this distribution would not exist.
 
-=head1 LICENSE
+# LICENSE
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-=cut

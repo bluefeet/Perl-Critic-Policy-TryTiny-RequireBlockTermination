@@ -1,6 +1,8 @@
-Revision history for Perl extension Perl::Critic::Policy::TryTiny::RequireBlockTermination.
+Revision history for Perl extension Perl-Critic-Policy-TryTiny-RequireBlockTermination.
 
 {{$NEXT}}
+
+ - Migrate build tooling from Dist::Zilla to Minilla.
 
 0.01 2016-06-20
 
