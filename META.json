@@ -64,7 +64,7 @@
          "web" : "https://github.com/bluefeet/Perl-Critic-Policy-TryTiny-RequireBlockTermination"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Aran Deltac <aran@ziprecruiter.com>"
    ],
