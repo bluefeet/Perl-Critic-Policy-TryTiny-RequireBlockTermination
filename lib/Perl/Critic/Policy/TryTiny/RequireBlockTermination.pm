@@ -1,6 +1,6 @@
 package Perl::Critic::Policy::TryTiny::RequireBlockTermination;
 
-$Perl::Critic::Policy::TryTiny::RequireBlockTermination::VERSION = '0.02';
+our $VERSION = '0.02';
 
 use strict;
 use warnings;
