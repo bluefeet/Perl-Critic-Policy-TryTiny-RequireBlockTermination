@@ -1,9 +1,8 @@
 package Perl::Critic::Policy::TryTiny::RequireBlockTermination;
-
-our $VERSION = '0.02';
-
+use 5.008001;
 use strict;
 use warnings;
+our $VERSION = '0.02';
 
 use Readonly;
 use Perl::Critic::Utils qw{ :severities :classification :ppi };
