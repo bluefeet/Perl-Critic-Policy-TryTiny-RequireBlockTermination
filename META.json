@@ -68,6 +68,7 @@
       }
    },
    "version" : "0.02",
+   "x_authority" : "cpan:BLUEFEET",
    "x_contributors" : [
       "Aran Deltac <aran@ziprecruiter.com>"
    ],
